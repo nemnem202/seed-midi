@@ -11,3 +11,7 @@ clap = { version = "4.6.7", features = ["derive"] }
 arrow = "60.1.0"
 parquet = "60.1.0"
 rayon = "1.12.0"
+
+[[bin]]
+name = "seed-midi"
+path = "src/main.rs"
